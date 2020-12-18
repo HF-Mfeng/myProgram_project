@@ -1,0 +1,18 @@
+@import "./styles/iconfont.wxss";
+
+page,view,text,swiper,swiper-item,image,navigator{
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* 全局的样式定义，用变量来索引 */
+page{
+  /* 定义的是全局主题颜色 */
+  --themColor:#FFC0CB;
+
+  /* 全局的字体大小 设计稿是 375 px 此时：1px = 2rpx*/
+  font-size: 28rpx;
+}

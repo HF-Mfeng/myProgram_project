@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>yigejiemian</class>
+ <widget class="QWidget" name="yigejiemian">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QFormLayout" name="formLayout">
+   <item row="0" column="1">
+    <widget class="QDoubleSpinBox" name="doubleSpinBox"/>
+   </item>
+   <item row="1" column="1">
+    <widget class="QScrollBar" name="verticalScrollBar">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QTabWidget" name="tabWidget">
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>Tab 1</string>
+      </attribute>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>Tab 2</string>
+      </attribute>
+     </widget>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QLineEdit" name="lineEdit"/>
+   </item>
+   <item row="5" column="1">
+    <widget class="QDateEdit" name="dateEdit"/>
+   </item>
+   <item row="7" column="0">
+    <widget class="QDial" name="dial"/>
+   </item>
+   <item row="8" column="1">
+    <widget class="QDateEdit" name="dateEdit_2"/>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

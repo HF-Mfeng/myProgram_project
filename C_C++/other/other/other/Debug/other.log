@@ -1,0 +1,5 @@
+﻿  node.cpp
+D:\2Programming_language\C_C++\other\other\other\node.cpp(210,23): warning C4018: “<”: 有符号/无符号不匹配
+  other.cpp
+  正在生成代码...
+  other.vcxproj -> D:\2Programming_language\C_C++\other\other\Debug\other.exe

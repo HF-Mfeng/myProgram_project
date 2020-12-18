@@ -1,0 +1,14 @@
+﻿  file.c
+D:\2Programming_language\C_C++\uncompress\uncompress\uncompress\file.c(10,18): warning C4047: “函数”:“FILE **”与“FILE *”的间接级别不同
+D:\2Programming_language\C_C++\uncompress\uncompress\uncompress\file.c(10,18): warning C4024: “fopen_s”: 形参和实参 1 的类型不同
+D:\2Programming_language\C_C++\uncompress\uncompress\uncompress\file.c(26,20): warning C4047: “函数”:“FILE **”与“FILE *”的间接级别不同
+D:\2Programming_language\C_C++\uncompress\uncompress\uncompress\file.c(26,20): warning C4024: “fopen_s”: 形参和实参 1 的类型不同
+D:\2Programming_language\C_C++\uncompress\uncompress\uncompress\file.c(48,19): warning C4047: “函数”:“FILE **”与“FILE *”的间接级别不同
+D:\2Programming_language\C_C++\uncompress\uncompress\uncompress\file.c(48,19): warning C4024: “fopen_s”: 形参和实参 1 的类型不同
+  myuncompress.c
+  正在生成代码...
+file.obj : error LNK2019: 无法解析的外部符号 _gzread，该符号在函数 _decompress_one_file 中被引用
+file.obj : error LNK2019: 无法解析的外部符号 _gzwrite，该符号在函数 _compress_one_file 中被引用
+file.obj : error LNK2019: 无法解析的外部符号 _gzclose，该符号在函数 _compress_one_file 中被引用
+file.obj : error LNK2019: 无法解析的外部符号 _gzopen，该符号在函数 _compress_one_file 中被引用
+D:\2Programming_language\C_C++\uncompress\uncompress\Debug\uncompress.exe : fatal error LNK1120: 4 个无法解析的外部命令

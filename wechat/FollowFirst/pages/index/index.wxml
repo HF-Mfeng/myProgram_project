@@ -1,0 +1,53 @@
+<view id="pyg_index" >
+  <SearchInput></SearchInput>
+
+  <!-- 轮播图开始 -->
+  <view id="swiper_view">
+    <swiper autoplay="true" indicator-dots circular id="swiper_swiper" >
+        <swiper-item
+        wx:for="{{swiperlist}}"
+        wx:key="goods_id">
+          <navigator>
+            <image mode="widthFix" src="{{item.image_src}}" id="swiper_image" ></image>
+          </navigator>
+        </swiper-item>    
+    </swiper>
+  </view>
+  <!-- 轮播图结束 -->
+
+
+  <!-- 导航图开始 -->
+  <view id="cate_view"  >
+    <navigator 
+    wx:for="{{catelist}}"
+    wx:key="name"
+    id="cate_navigator"
+    >
+      <image mode="widthFix" src="{{item.image_src}}" id="cate_image" ></image>
+    </navigator>
+  </view>
+  <!-- 导航图结束 -->
+
+
+
+  <!-- 楼层图开始 --> 
+  <view class="floor_view"
+  wx:for="{{floorlist}}"
+  wx:key="*this"
+  >
+  <!-- 标题 -->
+    <view class="floor_title_view"><image mode="widthFix" src="{{item.floor_title.image_src}}" ></image></view>
+  <!-- 内容 -->
+    <view class="floor_content_view">
+        <image mode="widthFix" src="{{item.product_list[0].image_src}}" class="floor_content_phote1" ></image>
+        <view class="photos_view" >
+          <image mode="widthFix" src="{{item.product_list[4].image_src}}" class="floor_content_photes2" ></image>
+          <image mode="widthFix" src="{{item.product_list[1].image_src}}" class="floor_content_photes2" ></image>
+          <image mode="widthFix" src="{{item.product_list[2].image_src}}" class="floor_content_photes2" ></image>
+          <image mode="widthFix" src="{{item.product_list[3].image_src}}" class="floor_content_photes2" ></image>
+        </view>
+    </view>
+  </view>
+  <!-- 楼层图结束 -->
+
+  </view>

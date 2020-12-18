@@ -1,0 +1,8 @@
+﻿  cmd.color.cpp
+D:\2Programming_language\C_C++\cmd.color\cmd.color\cmd.color.cpp(9,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  正在生成代码
+  1 of 5 functions (20.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  cmd.color.vcxproj -> D:\2Programming_language\C_C++\cmd.color\Release\cmd.color.exe

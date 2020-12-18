@@ -1,0 +1,7 @@
+<!--pages/my/my.wxml.wxml-->
+<text>pages/my/my.wxml.wxml</text>
+<view>
+  <button>
+    this a button 
+  </button>
+</view>

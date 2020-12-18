@@ -1,0 +1,3 @@
+﻿  file.c
+D:\2Programming_language\C_C++\uncompress\uncompress\uncompress\file.c(55,68): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  uncompress.vcxproj -> D:\2Programming_language\C_C++\uncompress\uncompress\x64\Debug\uncompress.exe

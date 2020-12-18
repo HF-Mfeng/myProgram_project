@@ -1,0 +1,27 @@
+
+page{
+  height:100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+view{
+  height: 50rpx;
+  width: 100%;
+  padding: 3rpx;
+  justify-content: center;
+
+  background-color:#FFC0CB;
+
+}
+navigator{
+  width: 100%;
+
+  background-color:white;
+  justify-content: center;
+  display: flex;
+  color: black;
+  font-size: 30rpx;
+  border-radius: 20rpx;
+}

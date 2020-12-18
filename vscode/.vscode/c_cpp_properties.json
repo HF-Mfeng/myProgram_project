@@ -1,0 +1,15 @@
+{
+    "configurations": [
+      {
+        "name": "GCC",
+        "includePath": ["${workspaceFolder}/**",
+        "D:\\1useful_soft\\opencv\\opencv\build\\include"],
+        "defines": ["_DEBUG", "UNICODE", "_UNICODE"],
+        "windowsSdkVersion": "10.0.18362.0",
+        "compilerPath": "D:/1useful_soft/MinGW/mingw64/bin/g++.exe",
+        "cStandard": "gnu17",
+        "intelliSenseMode": "gcc-x64"
+      }
+    ],
+    "version": 4
+  }

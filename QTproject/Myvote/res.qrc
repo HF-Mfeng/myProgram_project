@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resource/bilibili.png</file>
+        <file>resource/cat.gif</file>
+        <file>resource/drink.gif</file>
+        <file>resource/handVote.jpg</file>
+        <file>resource/softLogo.png</file>
+        <file>resource/Vote1.png</file>
+        <file>resource/vote2.png</file>
+        <file>resource/off.png</file>
+        <file>resource/on.png</file>
+        <file>resource/dengluoff.png</file>
+        <file>resource/dengluon.png</file>
+        <file>resource/zhuceoff.png</file>
+        <file>resource/zhuceon.png</file>
+    </qresource>
+</RCC>
