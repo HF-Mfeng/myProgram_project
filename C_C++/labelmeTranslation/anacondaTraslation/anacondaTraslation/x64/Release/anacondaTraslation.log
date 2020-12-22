@@ -1,0 +1,9 @@
+﻿  anacondaTraslation.cpp
+D:\2Programming_language\C_C++\labelmeTranslation\anacondaTraslation\anacondaTraslation\anacondaTraslation.cpp(39,28): warning C4244: “=”: 从“intptr_t”转换到“long”，可能丢失数据
+D:\2Programming_language\C_C++\labelmeTranslation\anacondaTraslation\anacondaTraslation\anacondaTraslation.cpp(78,28): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  源.cpp
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 164 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  anacondaTraslation.vcxproj -> D:\2Programming_language\C_C++\labelmeTranslation\anacondaTraslation\x64\Release\anacondaTraslation.exe
